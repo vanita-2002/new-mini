@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(login.jpeg);
+    background-size: cover;
+}
+.Vanita{
+    width: 300px;
+    padding: 30px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(red, green, blue, alpha);
+    text-align: center;
+    position: absolute;
+}
+.Vanita h1{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.Vanita input[type='text'],.Vanita input[type='password']
+{
+  border:0;  
+  background: none;
+  background-color: darkblue;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid  palevioletred;
+  padding: 14px 10px;
+  width: 220px;
+  outline:none ;
+  color: antiquewhite;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+.Vanita input[type='text'],.Vanita input[type='password']:focus{
+    width: 270px;
+    border-color: yellow;
+
+}
+.Vanita input[type='submit']{
+    border: 0;  
+    background-color:darkmagenta;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid  palevioletred;
+    padding: 14px 35px;
+    outline:none ;
+    color: antiquewhite;
+    border-radius: 25px;
+    transition: 0.25px;
+    cursor: pointer;
+    
+}
+.Vanita input[type='submit']:hover{
+    background-color: brown;
+}
